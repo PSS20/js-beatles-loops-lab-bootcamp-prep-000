@@ -20,7 +20,9 @@ function iLoveTheBeatles(number){
   do{
     [...array,"I love the Beatles!"]
     number++;
+    console.log(number)
+    console.log(array)
   }while(number<15)
-  console.log(array)
+  
   return array
 }
